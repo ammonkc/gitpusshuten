@@ -1,0 +1,60 @@
+PATH
+  remote: .
+  specs:
+    gitpusshuten (0.0.5)
+      activesupport (~> 3.0.0)
+      highline (~> 1.6.0)
+      json (~> 1.4.0)
+      net-scp (~> 1.0.0)
+      net-ssh (~> 2.0.0)
+      rainbow (~> 1.1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.1)
+    diff-lcs (1.1.2)
+    fuubar (0.0.2)
+      rspec (~> 2.0)
+      rspec-instafail (~> 0.1.4)
+      ruby-progressbar (~> 0.0.9)
+    highline (1.6.1)
+    infinity_test (0.2.0)
+      watchr (>= 0.7)
+    json (1.4.6)
+    mocha (0.9.8)
+      rake
+    net-scp (1.0.4)
+      net-ssh (>= 1.99.1)
+    net-ssh (2.0.23)
+    rainbow (1.1)
+    rake (0.8.7)
+    rspec (2.0.1)
+      rspec-core (~> 2.0.1)
+      rspec-expectations (~> 2.0.1)
+      rspec-mocks (~> 2.0.1)
+    rspec-core (2.0.1)
+    rspec-expectations (2.0.1)
+      diff-lcs (>= 1.1.2)
+    rspec-instafail (0.1.4)
+    rspec-mocks (2.0.1)
+      rspec-core (~> 2.0.1)
+      rspec-expectations (~> 2.0.1)
+    ruby-progressbar (0.0.9)
+    watchr (0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport (~> 3.0.0)
+  fuubar
+  gitpusshuten!
+  highline (~> 1.6.0)
+  infinity_test
+  json (~> 1.4.0)
+  mocha
+  net-scp (~> 1.0.0)
+  net-ssh (~> 2.0.0)
+  rainbow (~> 1.1.0)
+  rspec
